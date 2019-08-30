@@ -1,0 +1,22 @@
+{
+    "name": "buerle/aliyun-php-sdk-core",
+    "description": "阿里云 PHP SDK 的核心依赖包的 composer 封装",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Crain",
+            "email": "majianchun@ringle.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "ext-openssl":"*"
+    },
+    "extra": {
+        "branch-alias": {
+           "dev-master": "1.0-dev"
+        }
+    }
+}
